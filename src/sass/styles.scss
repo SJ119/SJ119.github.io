@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Myriad Set Pro';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../assets/myriad-set-pro_thin.woff');
+    /* Copyright (c) 1992 Adobe Systems Incorporated. All Rights Reserved. Myriad is a trademark of Adobe Systems Incorporated. */
+}
+
+html {
+    body {
+        margin: 0px;
+        height: 100%;
+        a {
+            padding: 2px;
+            text-decoration: none;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        a:hover {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.1);
+    canvas {
+        position: fixed;
+        top: 0;
+        left: 50%;
+    }
+    font-family: 'Myriad Set Pro',
+    'Helvetica Neue',
+    'Helvetica',
+    'Arial',
+    sans-serif;
+    .row {
+        position: relative;
+        max-width: 80vw;
+        margin: 0px auto 5px auto;
+        background-color: rgba(255, 255, 255, 0.1);
+        > div {
+            margin: 5px;
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+    }
+}
+
+.top-bar {
+    .header {
+        ul {
+            padding: 0px;
+            .items {
+                padding: 0px 5px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.content-about {
+    .portrait {
+        max-width: 150px;
+        float: right;
+    }
+}
+
+.degree {
+    ul {
+        padding: 0px;
+        li {
+            padding: 0px 5px;
+            font-size: 0.8em;
+            display: block;
+        }
+    }
+}
+
+.content-education {
+    .courses {
+        ul {
+            padding: 0px;
+            li {
+                padding: 0px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                text-align: left;
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+.graph {
+    .graph-svg {
+        .graph-axis-x line,
+        .graph-axis-x path,
+        .graph-axis-y line,
+        .graph-axis-y path {
+            fill: none;
+            stroke: #000;
+        }
+    }
+}
+
+.content-projects {
+    .projects {
+        .project {
+            a {
+                display: inline-block;
+                padding: 4px;
+            }
+        }
+    }
+}
+
+.content-contact {
+    .contact {
+        ul {
+            padding: 0px;
+            li {
+                padding: 0px 5px;
+                display: inline-block;
+            }
+        }
+    }
+}

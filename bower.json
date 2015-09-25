@@ -1,0 +1,22 @@
+{
+    "name": "Shen Jin",
+    "version": "1.0.0",
+    "authors": [
+        "Shen Jin <shen_jin@live.com>"
+    ],
+    "description": "Personal Website",
+    "main": "index.html",
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "d3": "~3.5.6",
+        "flexboxgrid": "~6.2.0",
+        "jquery": "~2.1.4"
+    }
+}
